@@ -704,6 +704,13 @@ section,
   font-size: 24px;
 }
 
+.about-profile-image {
+  display: block;
+  width: 75%;
+  max-width: 280px;
+  margin: 0 auto;
+}
+
 .about .content ul {
   list-style: none;
   padding: 0;
