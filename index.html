@@ -4,33 +4,27 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Jakkaphan Nitinattanan | Portfolio</title>
-  <meta name="description" content="Portfolio of Jakkaphan Nitinattanan - Software Engineer and AI Developer focused on full-stack web development, applied AI, computer vision, networking, and automation.">
-  <meta name="keywords" content="Jakkaphan Nitinattanan, Software Engineer, AI Developer, Full-Stack, YOLOv8, OpenCV, PHP, MySQL, Portfolio">
+  <title>จักรพันธ์ นิธิณัฐนันท์ | Software Engineer</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
+  <!-- Favicons -->
   <link rel="icon" type="image/png" href="https://firebasestorage.googleapis.com/v0/b/klangkhet3.appspot.com/o/ba.png?alt=media&token=d10281bf-0c35-43c3-811c-1a0597154f67">
 
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;600;700;800&family=Prompt:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
+  <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/css/main.css" rel="stylesheet">
 
-  <style>
-    .skill-group { margin-bottom: 1.35rem; }
-    .skill-group h4 { font-size: 1rem; margin-bottom: .55rem; }
-    .skill-tags { display: flex; flex-wrap: wrap; gap: .5rem; }
-    .skill-tag { border: 1px solid color-mix(in srgb, var(--accent-color), transparent 65%); border-radius: 999px; padding: .35rem .7rem; font-size: .9rem; }
-    .project-tech { font-weight: 600; color: var(--accent-color); }
-    .contact-link { color: inherit; text-decoration: none; }
-    .contact-link:hover { color: var(--accent-color); }
-    .hero .hero-role { margin-top: .5rem; }
-  </style>
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 </head>
 
 <body class="index-page">
@@ -39,283 +33,274 @@
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
     <div class="profile-img">
-      <img src="assets/img/my-profile-img.jpg" alt="Jakkaphan Nitinattanan" class="img-fluid rounded-circle">
+      <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
     </div>
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-      <h1 class="sitename">Jakkaphan Nitinattanan</h1>
+      <h1 class="sitename">Peace</h1>
     </a>
 
     <div class="social-links text-center">
-      <a href="mailto:nitinattanan@gmail.com" aria-label="Email"><i class="bi bi-envelope"></i></a>
-      <a href="tel:+66967768861" aria-label="Phone"><i class="bi bi-telephone"></i></a>
+      <a href="mailto:nitinattanan@gmail.com" aria-label="อีเมล"><i class="bi bi-envelope"></i></a>
+      <a href="tel:0967768861" aria-label="โทรศัพท์"><i class="bi bi-telephone"></i></a>
+      <a href="https://www.facebook.com/jakkaphan.nitinattanan" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+      <a href="https://github.com/pee1546" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a>
     </div>
 
     <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i> Home</a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <li><a href="#projects"><i class="bi bi-code-slash navicon"></i> Projects</a></li>
-        <li><a href="#skills"><i class="bi bi-tools navicon"></i> Skills</a></li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span data-th="หน้าหลัก" data-en="Home">หน้าหลัก</span></a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i><span data-th="เกี่ยวกับผม" data-en="About Me">เกี่ยวกับผม</span></a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span data-th="ประสบการณ์" data-en="Experience">ประสบการณ์</span></a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span data-th="ติดต่อ" data-en="Contact">ติดต่อ</span></a></li>
       </ul>
+      <button class="language-toggle" type="button" aria-label="เปลี่ยนภาษา" aria-pressed="false"><span class="language-th">TH</span><span class="language-divider">/</span><span class="language-en">EN</span></button>
     </nav>
+
   </header>
 
   <main class="main">
 
+    <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2>Jakkaphan Nitinattanan</h2>
-        <p class="hero-role">I'm <span class="typed" data-typed-items="Software Engineer, AI Developer, Full-Stack Developer, Computer Vision Developer">Software Engineer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
-      </div>
-    </section>
 
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <p class="hero-kicker">SOFTWARE ENGINEER · FULL-STACK · AI</p>
+        <h2 data-th="นายจักรพันธ์ นิธิณัฐนันท์" data-en="Jakkaphan Nitinattanan">Jakkaphan Nitinattanan</h2>
+        <p><span data-th="ผมเป็น" data-en="I am">ผมเป็น</span> <span class="typed" data-typed-items="Software Engineer,Full-Stack Developer,AI Developer">Software Engineer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+        <div class="hero-contact"><a href="tel:0967768861"><i class="bi bi-telephone"></i> 096-776-8861</a><a href="mailto:nitinattanan@gmail.com"><i class="bi bi-envelope"></i> nitinattanan@gmail.com</a></div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
     <section id="about" class="about section">
+
+      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
-        <p>Information Systems undergraduate with experience in Full-Stack Web Development, Applied AI, Computer Vision, Local LLMs, and enterprise network infrastructure. I enjoy building practical systems that improve operational efficiency through software, networking, AI integration, and automation.</p>
-      </div>
+        <h2 data-th="เกี่ยวกับผม" data-en="About Me">เกี่ยวกับผม</h2>
+        <p data-th="นักศึกษาสาขาระบบสารสนเทศและนวัตกรรมดิจิทัลที่สนใจการพัฒนาซอฟต์แวร์แบบ Full-Stack และเทคโนโลยีปัญญาประดิษฐ์" data-en="An Information Systems and Digital Innovation student interested in Full-Stack software development and artificial intelligence.">นักศึกษาสาขาระบบสารสนเทศและนวัตกรรมดิจิทัลที่สนใจการพัฒนาซอฟต์แวร์แบบ Full-Stack และเทคโนโลยีปัญญาประดิษฐ์</p>
+      </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
+
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
-            <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="Jakkaphan Nitinattanan">
+            <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 content">
-            <h2>Software Engineer &amp; AI Developer</h2>
-            <p class="fst-italic py-3">Focused on secure, scalable, reliable, and production-ready systems that solve real-world problems.</p>
+            <h2 data-th="Full-Stack Developer &amp; AI Developer" data-en="Full-Stack Developer &amp; AI Developer">Full-Stack Developer &amp; AI Developer</h2>
+            <p class="fst-italic py-3" data-th="มีประสบการณ์พัฒนา Web Application, Database System, Local AI Server, Large Language Models (LLMs) และ AI Agent เพื่อสร้างระบบอัตโนมัติ" data-en="Experienced in building Web Applications, Database Systems, Local AI Servers, Large Language Models (LLMs), and AI Agents for automation.">มีประสบการณ์พัฒนา Web Application, Database System, Local AI Server, Large Language Models (LLMs) และ AI Agent เพื่อสร้างระบบอัตโนมัติ</p>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>6 Dec 1998</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+66 96-776-8861</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Buriram, Thailand</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>ชื่อ:</strong> <span data-th="จักรพันธ์ นิธิณัฐนันท์" data-en="Jakkaphan Nitinattanan">Jakkaphan Nitinattanan</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>โทรศัพท์:</strong> <span>096-776-8861</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>อีเมล:</strong> <span>nitinattanan@gmail.com</span></li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.Sc. Information Systems</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>nitinattanan@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Status:</strong> <span>Undergraduate</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>สายงาน:</strong> <span data-th="Software / AI Development" data-en="Software / AI Development">Software / AI Development</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>สถานะ:</strong> <span data-th="นักศึกษา" data-en="Student">นักศึกษา</span></li>
                 </ul>
               </div>
             </div>
-            <p class="py-3">Strong analytical, problem-solving, and technical troubleshooting abilities, with hands-on experience spanning web development, databases, Linux, IT support, networking, computer vision, and AI tooling.</p>
+            <p class="py-3">
+              <span data-th="พร้อมเรียนรู้เทคโนโลยีใหม่ ทำงานร่วมกับทีมได้อย่างมีประสิทธิภาพ และมุ่งพัฒนาระบบที่นำไปใช้งานได้จริง" data-en="Always ready to learn new technologies, collaborate effectively, and build systems that work in the real world.">พร้อมเรียนรู้เทคโนโลยีใหม่ ทำงานร่วมกับทีมได้อย่างมีประสิทธิภาพ และมุ่งพัฒนาระบบที่นำไปใช้งานได้จริง</span>
+            </p>
           </div>
         </div>
-      </div>
-    </section>
 
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Resume Section -->
     <section id="resume" class="resume section">
+
+      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
-        <p>Education, experience, and achievements relevant to software engineering, AI development, IT support, and network infrastructure.</p>
-      </div>
+        <h2 data-th="ประสบการณ์และทักษะ" data-en="Experience &amp; Skills">ประสบการณ์และทักษะ</h2>
+        <p data-th="เส้นทางการเรียนรู้และผลงานที่สะท้อนความสนใจด้าน Full-Stack Development และ AI" data-en="A learning journey and selected projects reflecting my interest in Full-Stack Development and AI.">เส้นทางการเรียนรู้และผลงานที่สะท้อนความสนใจด้าน Full-Stack Development และ AI</p>
+      </div><!-- End Section Title -->
 
       <div class="container">
+
         <div class="row">
+
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Profile</h3>
+            <h3 class="resume-title" data-th="การศึกษา" data-en="Education">การศึกษา</h3>
+
             <div class="resume-item pb-0">
-              <h4>Jakkaphan Nitinattanan</h4>
-              <p><em>Motivated Information Systems undergraduate with expertise in Full-Stack Web Development, Applied AI (Computer Vision/Object Detection &amp; Local LLMs), and Enterprise Network Infrastructure.</em></p>
-              <ul>
-                <li>Buriram, Thailand</li>
-                <li>+66 96-776-8861</li>
-                <li>nitinattanan@gmail.com</li>
-              </ul>
-            </div>
+              <h4>Rajamangala University of Technology Isan</h4>
+              <h5>2022 - Present · GPAX 3.83</h5>
+              <p><em>Bachelor of Information Systems and Digital Innovation / ระบบสารสนเทศและนวัตกรรมดิจิทัล</em></p>
+            </div><!-- Edn Resume Item -->
 
-            <h3 class="resume-title">Education</h3>
+            <h3 class="resume-title" data-th="ทักษะและเครื่องมือ" data-en="Skills &amp; Tools">ทักษะและเครื่องมือ</h3>
             <div class="resume-item">
-              <h4>Bachelor of Science in Information Systems</h4>
-              <h5>2025 - Present</h5>
-              <p><em>Rajamangala University of Technology Isan</em></p>
-              <p>Expected graduation: In Progress<br><strong>GPAX: 3.83</strong></p>
-            </div>
-            <div class="resume-item">
-              <h4>Higher Vocational Diploma in Information Technology</h4>
-              <h5>2024</h5>
-              <p><em>Buriram Technical College</em></p>
-              <p><strong>GPAX: 3.77</strong></p>
-            </div>
+              <h4>Buriram Technical College</h4>
+              <h5>2019 - 2022 · GPAX 3.77</h5>
+              <p><em>Higher Vocational Certificate / นักพัฒนาซอฟต์แวร์คอมพิวเตอร์</em></p>
+            </div><!-- Edn Resume Item -->
 
-            <h3 class="resume-title">Honors &amp; Awards</h3>
             <div class="resume-item">
-              <h4>National Honor Award</h4>
-              <p>Winner at the National Invention and Innovation Competition.</p>
-            </div>
-            <div class="resume-item">
-              <h4>Gold Medalist - 4th Place</h4>
-              <p>Regional Network Technology Competition (Northeastern Region).</p>
-            </div>
+              <h4>Tech Stack</h4>
+              <p><strong>Languages:</strong> PHP, JavaScript, Python</p>
+              <p><strong>Database &amp; Tools:</strong> MySQL, Google Apps Script, Google Sheet, Blynk</p>
+              <p><strong>AI:</strong> Ollama, Gemma 4, Hermes, vLLM, Open WebUI, Gemini</p>
+            </div><!-- Edn Resume Item -->
+
           </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Work Experience</h3>
-            <div class="resume-item">
-              <h4>IT Support Intern</h4>
-              <h5>2024</h5>
-              <p><em>The Connect Services Co., Ltd.</em></p>
-              <ul>
-                <li>Installed and configured computer software and business applications.</li>
-                <li>Performed LAN network cabling installation and maintenance.</li>
-                <li>Reviewed and verified Terms of Reference (TOR) documentation for IT projects.</li>
-                <li>Supported accounting and IT teams with daily technical operations.</li>
-                <li>Assisted in troubleshooting hardware, software, and network connectivity issues.</li>
-              </ul>
-            </div>
-
-            <h3 class="resume-title">Strengths</h3>
-            <div class="resume-item">
-              <ul>
-                <li>Highly responsible, punctual, and quick to learn new technologies.</li>
-                <li>Strong analytical, problem-solving, and technical troubleshooting abilities.</li>
-                <li>Dedicated to building secure, scalable, and reliable production-ready systems.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="resume section light-background">
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Project Experience</h2>
-        <p>Selected projects combining software development, database systems, AI, computer vision, IoT, and automation.</p>
-      </div>
-
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="resume-item">
-              <h4>CCTV Weapon Detection &amp; Safety Alert System</h4>
-              <p>Developed an AI surveillance pipeline on Linux Ubuntu using Computer Vision to detect firearms from CCTV streams, trigger real-time alerts, and control ESP32 IoT devices for local flashing lights and sound alarms.</p>
-              <p class="project-tech">Python · YOLOv8 · OpenCV · Linux Ubuntu · ESP32 · Sockets/Serial Communication</p>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
-            <div class="resume-item">
-              <h4>Inventory Gas Shop Management System</h4>
-              <p>Built a web-based inventory system to track stock levels, manage cylinder loans and returns, generate sales analytics, and control user access roles.</p>
-              <p class="project-tech">PHP · MySQL · Web Application</p>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title" data-th="ประสบการณ์โปรเจกต์" data-en="Project Experience">ประสบการณ์โปรเจกต์</h3>
             <div class="resume-item">
               <h4>Local AI Server LLM</h4>
-              <p>Designed and deployed a Local AI Server for running Large Language Models (LLMs) within an organization to support private AI workflows and automation.</p>
-              <p class="project-tech">Python · Ollama · Open WebUI · Local LLM</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+              <h5>01 · Python · vLLM · Gemini 4 · Open WebUI</h5>
+              <p><em data-th="ออกแบบและติดตั้ง Local AI Server สำหรับใช้งาน Large Language Models (LLMs) ภายในองค์กร" data-en="Designed and installed a Local AI Server for using Large Language Models (LLMs) within the organization">Designed and installed a Local AI Server for using Large Language Models (LLMs) within the organization</em></p>
+              <ul>
+                <li data-th="ติดตั้งระบบ AI ภายในองค์กรเพื่อเพิ่มความเป็นส่วนตัวและความยืดหยุ่นในการใช้งาน" data-en="Installed AI system within the organization to enhance privacy and flexibility in usage">ติดตั้งระบบ AI ภายในองค์กรเพื่อเพิ่มความเป็นส่วนตัวและความยืดหยุ่นในการใช้งาน</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
 
-    <section id="skills" class="section">
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Skills</h2>
-        <p>Technical skills from the resume grouped for quick review.</p>
+            <div class="resume-item">
+              <h4>Automated Scoring Dashboard System</h4>
+              <h5>02 · JavaScript · Google Apps Script · Data Visualization · Google Sheet</h5>
+              <p><em data-th="พัฒนาระบบ Dashboard สำหรับประเมินผลแบบอัตโนมัติ พร้อมแสดงผลแบบ Interactive และสรุปข้อมูลเพื่อช่วยในการตัดสินใจ" data-en="Developed a Dashboard system for automated evaluation, featuring interactive data visualization and summary reports to aid decision-making">พัฒนาระบบ Dashboard สำหรับประเมินผลแบบอัตโนมัติ พร้อมแสดงผลแบบ Interactive และสรุปข้อมูลเพื่อช่วยในการตัดสินใจ</em></p>
+              <ul>
+                <li data-th="ออกแบบการแสดงผลข้อมูลให้ติดตามผลลัพธ์ได้รวดเร็วและเข้าใจง่าย" data-en="Designed data visualization for quick and easy tracking of results">ออกแบบการแสดงผลข้อมูลให้ติดตามผลลัพธ์ได้รวดเร็วและเข้าใจง่าย</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Inventory Gas Shop System</h4>
+              <h5>03 · PHP · MySQL · Web Application</h5>
+              <p><em data-th="ระบบบริหารจัดการรับจำหน่ายแก๊สหุงต้ม" data-en="Inventory Management System for Gas Sales">ระบบบริหารจัดการรับจำหน่ายแก๊สหุงต้ม</em></p>
+              <ul>
+                <li data-th="จัดการสินค้าคงคลัง ลูกค้า ถังแก๊ส และการยืม-คืนถังแก๊ส" data-en="Managed inventory, customers, gas cylinders, and loan/return processes">จัดการสินค้าคงคลัง ลูกค้า ถังแก๊ส และการยืม-คืนถังแก๊ส</li>
+                <li data-th="ตรวจสอบสต็อกแบบ Real-time พร้อมรายงานยอดขายและสินค้าคงเหลือ" data-en="Real-time inventory checking with sales reports and remaining stock summaries">ตรวจสอบสต็อกแบบ Real-time พร้อมรายงานยอดขายและสินค้าคงเหลือ</li>
+                <li data-th="จัดการข้อมูลพนักงานและสิทธิ์การใช้งาน" data-en="Managed employee data and access permissions">จัดการข้อมูลพนักงานและสิทธิ์การใช้งาน</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+        </div>
+
       </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-th="ติดต่อ" data-en="Contact">ติดต่อ</h2>
+        <p data-th="ยินดีพูดคุยเกี่ยวกับโอกาสในการร่วมงานและโปรเจกต์ด้านซอฟต์แวร์หรือ AI" data-en="I would be happy to discuss collaboration opportunities and software or AI projects.">ยินดีพูดคุยเกี่ยวกับโอกาสในการร่วมงานและโปรเจกต์ด้านซอฟต์แวร์หรือ AI</p>
+      </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="skill-group">
-              <h4>Programming &amp; Web Development</h4>
-              <div class="skill-tags">
-                <span class="skill-tag">Full-Stack Web Development</span><span class="skill-tag">PHP</span><span class="skill-tag">HTML5</span><span class="skill-tag">CSS3</span><span class="skill-tag">Bootstrap</span><span class="skill-tag">JavaScript</span><span class="skill-tag">Python</span>
-              </div>
-            </div>
-            <div class="skill-group">
-              <h4>AI &amp; Computer Vision</h4>
-              <div class="skill-tags">
-                <span class="skill-tag">YOLOv8</span><span class="skill-tag">YOLO-World</span><span class="skill-tag">OpenCV</span><span class="skill-tag">Object Detection</span><span class="skill-tag">Model Training</span><span class="skill-tag">Ollama</span><span class="skill-tag">Open WebUI</span><span class="skill-tag">Gemma</span>
-              </div>
-            </div>
-            <div class="skill-group">
-              <h4>Database &amp; Systems</h4>
-              <div class="skill-tags">
-                <span class="skill-tag">MySQL</span><span class="skill-tag">Database Design</span><span class="skill-tag">Linux LAMP Server</span><span class="skill-tag">Windows/Linux</span>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-lg-6">
-            <div class="skill-group">
-              <h4>IT Support &amp; Network Infrastructure</h4>
-              <div class="skill-tags">
-                <span class="skill-tag">Hardware Maintenance</span><span class="skill-tag">Software Configuration</span><span class="skill-tag">Troubleshooting</span><span class="skill-tag">Help Desk</span><span class="skill-tag">LAN Cabling</span><span class="skill-tag">Network Architecture</span><span class="skill-tag">Cisco Business Switches</span><span class="skill-tag">VLAN</span><span class="skill-tag">Network Security</span>
-              </div>
-            </div>
-            <div class="skill-group">
-              <h4>Development &amp; Productivity Tools</h4>
-              <div class="skill-tags">
-                <span class="skill-tag">Visual Studio Code</span><span class="skill-tag">Antigravity IDE</span><span class="skill-tag">XAMPP</span><span class="skill-tag">Arduino IDE</span><span class="skill-tag">Blynk</span><span class="skill-tag">Canva</span><span class="skill-tag">Microsoft Office</span><span class="skill-tag">ChatGPT</span><span class="skill-tag">Google Gemini</span><span class="skill-tag">NotebookLM</span><span class="skill-tag">Canva AI</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+        <div class="row gy-4">
 
-    <section id="contact" class="contact section light-background">
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Open to opportunities in Software Engineering, Full-Stack Development, AI Development, Computer Vision, and related technical roles.</p>
-      </div>
+          <div class="col-lg-5">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4 justify-content-center">
-          <div class="col-lg-8">
             <div class="info-wrap">
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                  <i class="bi bi-code-slash flex-shrink-0"></i>
                 <div>
-                  <h3>Location</h3>
-                  <p>Ban Dan District, Buriram, Thailand</p>
+                  <h3>ตำแหน่งที่สนใจ</h3>
+                  <p>Software Engineer · Full-Stack Developer · AI Developer</p>
                 </div>
-              </div>
+              </div><!-- End Info Item -->
 
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                 <i class="bi bi-telephone flex-shrink-0"></i>
                 <div>
-                  <h3>Phone</h3>
-                  <p><a class="contact-link" href="tel:+66967768861">+66 96-776-8861</a></p>
+                  <h3>โทรศัพท์</h3>
+                  <p>096-776-8861</p>
                 </div>
-              </div>
+              </div><!-- End Info Item -->
 
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
-                  <h3>Email</h3>
-                  <p><a class="contact-link" href="mailto:nitinattanan@gmail.com">nitinattanan@gmail.com</a></p>
+                  <h3>อีเมล</h3>
+                  <p>nitinattanan@gmail.com</p>
                 </div>
-              </div>
+              </div><!-- End Info Item -->
+
+              <div class="award-note"><i class="bi bi-trophy-fill"></i><div><strong>Honor Award</strong><span data-th="นวัตกรรมชื่อ ระบบเตือนภัยความปลอดภัยด้วย Image Processing<br>การประกวดสิ่งประดิษฐ์และนวัตกรรมระดับชาติ" data-en="Innovation Award for Safety Alert System using Image Processing<br>National Innovation Competition">นวัตกรรมชื่อ ระบบเตือนภัยความปลอดภัยด้วย Image Processing<br>การประกวดสิ่งประดิษฐ์และนวัตกรรมระดับชาติ</span></div></div>
             </div>
           </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
         </div>
+
       </div>
-    </section>
+
+    </section><!-- /Contact Section -->
 
   </main>
 
   <footer id="footer" class="footer position-relative light-background">
+
     <div class="container">
-      <div class="copyright text-center">
-        <p>© <span>2026</span> <strong class="px-1 sitename">Jakkaphan Nitinattanan</strong> <span>All Rights Reserved</span></p>
+      <div class="copyright text-center ">
+        <p>© <span>Copyright 2025</span> <strong class="px-1 sitename">"Workshop - Portfolio"</strong> <span>All Rights Reserved</span></p>
       </div>
+      <div class="credits">Built with passion for software and AI</div>
     </div>
+
   </footer>
 
+  <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
   <div id="preloader"></div>
 
+  <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
@@ -326,7 +311,10 @@
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
